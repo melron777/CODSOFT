@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+    <nav>
+        <a href="#" class="logo"><span>Hancy Melron</span></a>
+        <ul class="links">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#about">Skills</a>
+            <a href="#services">Projects</a>
+            <a href="#contact">Contact</a>
+        </ul>
+
+        <i class='bx bx-menu' id="menu"></i>
+
+        
+
+
+    </nav>
+    
+    <section id="home">
+        <img src="hancy.jpeg" alt="" srcset=""> 
+        
+         <div class="info-box">
+            <h1><span>Hello, iam Hancy Melron</span></h1>
+            <h3><span>Web developer</span> based in Banglore</h3>
+            <p>Explore my portfolio to see how i leverage my technical skill to deliver web solution that align with client needs and current trends</p>
+
+         </div>
+         <div class="btn-box">
+            <div class="btn" onclick="downloadResume()">Resume</div>
+            <a href="#contact" class="btn">Contact me</a>
+         </div>
+    </section>
+ 
+    
+   
+    <section id="about">
+        <div class="about-box">
+            <div class="about-info">
+                <h1><span>about me</span></h1>
+                <p>Iam a webdeveloper based on banglore , that develop many types of websites from standalone to ecommerce booking platforms, currently focus on building accessible, human centered products </p>
+
+            </div>
+            <h2><span>Skills</span></h2>
+            <div class="skills">
+                 <ul>
+                    <li>
+                       <span><i class='bx bx-chevrons-right'></i>Html</span>
+                    </li>
+                    <li>
+                        <span><i class='bx bx-chevrons-right'></i>CSS</span>
+                     </li>
+                     <li>
+                        <span><i class='bx bx-chevrons-right'></i>JavaScript</span>
+                     </li>
+                 </ul>
+                 <ul>
+                    <li>
+                       <span><i class='bx bx-chevrons-right'></i>Node</span>
+                    </li>
+                    <li>
+                        <span><i class='bx bx-chevrons-right'></i>react</span>
+                     </li>
+                     <li>
+                        <span><i class='bx bx-chevrons-right'></i>MySQL</span>
+                     </li>
+                 </ul>
+            </div>
+        </div>
+            <img src="hancy.jpeg" alt="">
+    </section>
+    
+       <section id="services">
+          <h1 class="header"><span>Projects</span></h1>
+          <div class="services-container">
+            <div class="box">
+                <h1><span>Incubator</span></h1>
+                <p> PIM Incubator is a platform designed to help startups grow and succeed. We provide mentorship, funding opportunities, coworking spaces, and access to resources for building and scaling businesses. Our focus is on creating a supportive environment where innovative ideas can turn into successful ventures.</p>
+                <img src="startup_incubator.png" alt="">
+            </div>
+            <div class="box">
+                <h1><span>Fest website</span></h1>
+                <p>Advaita is an exciting event that brings people together to celebrate creativity, talent, and innovation. With vibrant activities, competitions, workshops, and performances, it’s the perfect platform to showcase skills and connect with like-minded individuals. Spark Fest is all about fun, learning, and creating unforgettable memories!</p>
+                <img src="college-fest.jpg" alt="">
+            </div>
+          </div>
+       </section>
+       
+       <section id="contact">
+             <h1 class="header"><span>Contact</span></h1>
+             <form action="#" >
+                <div class="input-box">
+                    <span>full name</span>
+                    <input type="text" placeholder="Enter your full name">
+                </div>
+                <div class="input-box">
+                    <span>full email</span>
+                    <input type="text" placeholder="Enter your email">
+                </div>
+                <div class="input-box">
+                    <span>full message</span>
+                    <input type="text" placeholder="Enter your message">
+                </div>
+
+                <div class="btn">Submitt</div>
+             </form>
+       </section>
+       
+         <footer>
+            <div class="col-left">
+                <div class="col-box">
+                    <span><i class='bx bx-current-location' ></i></span>
+                    <span>Location Name: 3-85-3,1st Salmara Cross Shankarpura ,Kurkalu,Udupi,
+                        Karnataka,574105</span>
+                </div>
+                <div class="col-box">
+                    <span><i class='bx bx-phone'></i></span>
+                    <span>9902534157.</span>
+                </div>
+                <div class="col-box">
+                    <span><i class='bx bx-envelope' ></i></span>
+                    <span>hancymelron111@gmail.com</span>
+                </div>
+            </div>
+
+            <div class="col-right">
+               <span>About my services</span>
+               <p>I like to craft best front-end products with great user experiences.skilled at UI designing</p>
+            </div>
+         </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
